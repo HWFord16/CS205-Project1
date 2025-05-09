@@ -1,4 +1,6 @@
-
+"""
+Tree class- responsible for tracing solution path after goal state is reached
+"""
 class Tree:
     def __init__(self, root):
         self.root = root  #root node

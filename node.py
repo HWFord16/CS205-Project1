@@ -1,5 +1,8 @@
 import numpy as np
 
+"""
+Node class- represents puzzle state, tracks its depth, children and moves from node toward goal state
+"""
 class Node:
     def __init__(self, state, depth, move = None, parent = None,
                  goal_state = [[1,2,3],[4,5,6],[7,8,0]],
